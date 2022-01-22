@@ -82,6 +82,7 @@ woman jacket section
 */
 .product-img{
   background: var(--clr-bg-img);
+  height: 18rem;
 }
 /*
 ============================
