@@ -1,0 +1,99 @@
+/*
+=============== 
+Variables
+===============
+*/
+:root {
+	--clr-white: #fff;
+	--clr-primary: rgb(248, 104, 88);
+	--clr-btn-hover: rgb(245, 151, 140);
+	--clr-bg-banner: #FFFBF0;
+	--clr-bg-img: #F1F1F1;
+	--ff-primary: 'Poppins', sans-serif;
+	--ff-secondary: 'Luxurious Roman', cursive;
+	--spacing: 0.25rem;
+	--radius: 0.25rem;
+	--light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	--dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  /* For testing purpose */
+	--border: 2px solid red;
+}
+
+/*
+=============== 
+global classes
+===============
+*/
+h1,
+h2,
+h3,
+h4 {
+	text-transform: capitalize;
+}
+.section-center{
+	margin: 0 auto;
+	max-width: 1170px;
+}
+/*
+======================
+end of global classes
+======================
+*/
+
+/*
+=================
+banner section
+=================
+*/
+.section-banner{
+  min-height: calc(100vh - 59px);
+}
+header{
+  background: var(--clr-bg-banner);
+}
+.banner-heading h1{
+  font-size: 2.5rem;
+}
+/*
+======================
+end of banner section
+======================
+*/
+
+/*
+======================
+woman jacket section
+======================
+*/
+.product-img{
+  background: var(--clr-bg-img);
+}
+/*
+============================
+end of woman jacket section
+============================
+*/
+
+/*
+===============
+bottom section
+===============
+*/
+.bottom-img{
+	width: 25%;
+}
+@media screen and (min-width: 768px) {
+	.bottom-img{
+		width: 100%;
+	}
+}
+@media screen and (min-width: 992px) {
+  .bottom-img{
+		width: 75%;
+	}
+}
+/*
+======================
+end of bottom section
+======================
+*/
