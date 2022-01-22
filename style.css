@@ -5,9 +5,11 @@ Variables
 */
 :root {
 	--clr-white: #fff;
-	--clr-primary: rgb(248, 104, 88);
-	--clr-btn-hover: rgb(245, 151, 140);
-	--clr-bg-banner: #FFFBF0;
+	--clr-primary: #FA804C;
+	--clr-secondary: #363958;
+  --clr-btn: #3D4FF3;
+	--clr-btn-hover: #6876f1;
+	--clr-bg-banner: #FFF9F4;
 	--clr-bg-img: #F1F1F1;
 	--ff-primary: 'Poppins', sans-serif;
 	--ff-secondary: 'Luxurious Roman', cursive;
@@ -33,6 +35,19 @@ h4 {
 .section-center{
 	margin: 0 auto;
 	max-width: 1170px;
+}
+.penguin-clr-primary{
+  color: var(--clr-primary);
+}
+.penguin-clr-secondary{
+  color: var(--clr-secondary);
+}
+.penguin-btn{
+  background-color: var(--clr-btn);
+  transition: background-color 0.2s ease-in;
+}
+.penguin-btn:hover{
+  background-color: var(--clr-btn-hover);
 }
 /*
 ======================
